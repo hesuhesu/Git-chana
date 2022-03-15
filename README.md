@@ -6,6 +6,6 @@
 ### code
 ```
 javascript 
-var foo = 'bar'
-if(true) foo = 'foo' 
+var foo = 'bar';
+if(true) foo = 'foo'; 
 ```
