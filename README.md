@@ -5,6 +5,7 @@
 
 ### code
 ```
-javascript var foo = 'bar'
+javascript 
+var foo = 'bar'
 if(true) foo = 'foo' 
 ```
