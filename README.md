@@ -1,8 +1,10 @@
 # git-chana
 
 
-### 2022.03.15 class
+## 2022.03.15 class
 
-
-'''var foo = 'bar'
-if(true) foo = 'foo' '''
+### code
+'''
+var foo = 'bar'
+if(true) foo = 'foo' 
+'''
