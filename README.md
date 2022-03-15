@@ -4,8 +4,7 @@
 ## 2022.03.15 class
 
 ### code
-```
-javascript 
+```javascript 
 var foo = 'bar';
 if(true) foo = 'foo'; 
 ```
