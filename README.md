@@ -19,3 +19,8 @@ if(true) foo = 'foo';
 ## 2022.03.29 class
 
 ## learning License and codes of conduct.
+
+
+## 2022.03.30 class
+
+## learning frontend technology with netlify
