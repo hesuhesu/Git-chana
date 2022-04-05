@@ -23,4 +23,9 @@ if(true) foo = 'foo';
 
 ## 2022.03.30 class
 
-## learning frontend technology with netlify
+## learning frontend technology with netlify.
+
+
+## 2022.04.05 class
+
+## learing project method & contribute github.
