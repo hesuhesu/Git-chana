@@ -1,4 +1,4 @@
-# git-chana
+# Git-chana
 
 
 ## 2022.03.15 class
