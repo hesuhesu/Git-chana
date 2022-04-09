@@ -1,3 +1,3 @@
 # baekjoon_Algorithm
 
-### c,c++ based
+### python based
