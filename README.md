@@ -34,3 +34,8 @@ if(true) foo = 'foo';
 ## 2022.04.06 class
 
 ### hearing advice to project & several oss(open source software) sites.
+
+
+## 2022.04.12 class
+
+### git, github practice.
