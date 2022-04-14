@@ -1,6 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
-</style>
+
 # Git-chana
 
 ## welcome to my Git-chana project!
