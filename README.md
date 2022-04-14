@@ -9,6 +9,6 @@
 ## korean student(junior in university)
 
 
-### practice Algorithm
++ practice Algorithm
 
-### learning oss(open source software)
++ learning oss(open source software)
