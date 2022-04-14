@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
 # baekjoon_Algorithm
 
 ### c,c++ based
