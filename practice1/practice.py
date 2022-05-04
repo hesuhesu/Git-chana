@@ -7,7 +7,8 @@ setuptools.setup (
   description = 'Git-chana',
   author = 'hesuhesu'
   url = "https://github.com/hesuhesu/Git-chana",
-  install_requires=[''],
+  download_url = "https://github.com/hesuhesu/Git-chana/archive/refs/tags/v1.0.0.zip",
+  install_requires=['pytest'],
   long_description = 'Git-chana practice python module',
   long_description_content_type = 'text/markdown',
   classifiers = [
