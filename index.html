@@ -4,55 +4,70 @@
 <!--버전별 선언, 정리를 위한 코드-->
 
 <html>
-
-
     <head>
-        <title>나의 개발일기</title>
+        <title>HTML - 실습</title>
         <!--title tag를 이용하여 웹페이지에서 뜨는 이름을 변경 가능하다. 기존에는 a.html로 표시됨.-->
 
-        <a target = 'blank' title = 'doctype의 버전별 방식' href = "https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8">DOCTYPE 버전별 정리</a><br>
-        <a target = 'blank' title = 'html의 변천사' href = "http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML의 변천사</a><br>
-        <a target = 'blank' title = '제작자 github' href = "https://github.com/hesuhesu/Git-chana">제작자 Github</a>
+        <a target = 'blank' title = 'doctype의 버전별 방식' href = "https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8">DOCTYPE 버전별 정리</a>
+        <a target = 'blank' title = 'html의 변천사' href = "http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML의 변천사</a>
         <meta charset = "utf-8">
-        
+        <!--글씨가 깨진다면, <meta charset = "utf-8">이라는 코드를 그대로 기입한다.-->
     </head>
-
+    <!--본문이 아닌 tag들을 heat tag에 넣는다.-->
+    
     
     <body>
 
-        <br><br>
-        <h1>HTML</h1><br>
-        
-        
+        <h1>HTML</h1> <!--h1 > h2 순으로 제목 부제목-->
+    
 
-        <h2>#1 HTML로 배우는 프로그래밍</h2><br>
+
+        <h2>#1 HTML로 배우는 프로그래밍</h2>
         
-        "우리 모두는 
-        <strong> 
+        우리 모두는 
+        <strong> <!--strong 부분에서는 글자를 진하게 해준다.-->
             자신의 힘
         </strong>
-        으로 발견한 내용을 가장 쉽게 익힌다."<br><br>
+        으로 발견한 내용을 가장 쉽게 익힌다.
         
 
 
-        <h2>#2 하이퍼링크의 사용 방법</h2><br>
-    
-        <a href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 1(현재 페이지에서 적용)</a>
-        <a target = 'blank' title = "전설적인 프로그래머" href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 2(새 페이지 생성)</a><br><br>
+        <h2>#2 하이퍼링크의 사용 방법</h2>
         
+        <a href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 1(본 페이지에서 창 띄움)</a>
+        <!--이 방법은 하이퍼링크가 수정페이지에서 바로 연결된다.-->
+        
+        <a target = 'blank' title = "전설적인 프로그래머" href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 2(새 창 띄움)</a>
+        <!--a태그는 anchor라고 한다. 하이퍼링크를 위한 명령어. 링크를 만드는 방법이며 href, target, title 등의 속성을 보유한다.-->
+        <!--href = "~~"가 하나다. 안에 삽입 x-->
+        <!--target = 'blank'는 새로운 페이지를 오픈하는 코드. 위치는 뒤든 앞이든 상관없다. 단 a 앞에는 x-->
+        <!--title = "전설적인 프로그래머"는 하이퍼링크에 커서를 댈 때 나타나는 문구다. 이 역시 위치 상관 x-->
+        
+
 
         <h2>#3 list를 사용하는 방법</h2>
+        
         <ul>
             <li>기술소개</li>
             <li>기본문법</li>
             <li>하이퍼텍스트와 속성</li>
             <li>리스트와 태그의 중첩</li>
         </ul>
+        <!--ul(unordered list) tag를 통해 list들인 li tag들의 목록을 분리한다.-->
         
         
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+        </ol>
+        <!--ol(ordered list) tag를 통해 순번을 지정한다. (위의 ul tag는 점으로 표현.)-->
 
-        <h2>#4 P tag의 단락 구별법(랜덤 원문)</h2><br>
-        
+
+
+        <h2>#4 P tag의 단락 구별법</h2>
+       
         <p>
             첫 탄생은 1995년 넷스케이프에서 근무하던 브랜든 아이크가 10일만에 설계한 것으로부터 시작한다. 
             처음에는 Mocha라는 이름이었지만 4달 만에 LiveScript라는 이름으로 개명하고 다시 3달 후에는 JavaScript라는 이름이 되어 오늘날까지 이어지고 있다. 
@@ -65,17 +80,227 @@
 
         <p># 오라클이 인수하면서 상표권도 오라클로 넘어갔는데, 소송으로 악명높은 오라클이 JavaScript는 딱히 손대지 않고 있다. 
             애초에 허락을 맡은 것이기도 하고 JavaScript가 워낙 널리 쓰이다보니 이제는 서로 각자의 유명세에 보탬이 되는 상부상조 관계이기 때문.
-        </p><br>
-       
-
-
-        <h2>#5 코딩하며 듣기 좋은 노래</h2><br>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nhAR2-WIM-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        </p>
+        <!--p tag를 통해 단락을 구분할 수 있다. 단락별로 한 칸씩 띄워지는게 특징.-->
 
 
 
-    </body>
+        <h2>#5 Rachmaninoff  Piano Concerto No. 2 "Adagio sostenuto"</h2>
+        
+        <audio src = "C:\Users\hesuh\Desktop\라흐마니노프 피아노협주곡 2번 2악장.mp3" controls = ""  loop = ""></audio>
+        <!--audio tag이며 사이트에서 오디오를 재생할 수 있게 만든다.-->
+
+
+
+        <h2>#6 유튜브 및 영상의 구현 방법</h2>
+
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/nhAR2-WIM-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--유튜브에서 공유 > 펴가기 > 복사를 통해 코드를 붙이면 유튜브 영상의 업로드가 가능.-->
+
+
+
+        <h2>#7 이미지 구현 방법</h2>
+
+        <img src = "C:\Users\hesuh\Desktop\piano-1655558.jpg" alt = "피아노 이미지" width = "600" title = "피아노 이미지">
+        <!--img tag는 기존의 방식과 많이 유사하지만, alt의 경우 이미지가 깨질 경우 대체되는 글귀이다.-->
+
+
+
+        <h2>#8 Table 구현 방법</h2>
+        
+        <table border = "2">
+
+
+            <thead> 
+                <tr>
+                    <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+                </tr>
+            </thead>
+           
+
+            <tbody>
+                <tr>
+                    <td>은희수</td> <td>남</td> <td rowspan = "2">부산</td> <td>1000</td>
+                </tr>
+    
+                <tr>
+                    <td>최유빈</td> <td>여</td>  <td>500</td>
+                </tr>
+                
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan = "3">합계</td> <td>1500</td>
+                </tr>
+            </tfoot>
+
+        </table>
+       <!--td로 각 열의 정보를 입력을 한다. tr로 행마다의 정보를 잡고, table로 감싸준다. border는 테두리의 크기.-->
+       <!--예전의 경우 레이아웃을 쓰지않고 table tag를 통해 디자인했는데, 지금은 css를 이용한다.-->
+       <!--영역을 thead, tbody, tfoot로 나눈다. 나누지 않고도 출력은 되지만 구분을 지어주자.-->
+       <!--rowspan은 행 n개를 합친다는 뜻이고, colspan은 열 n개를 합친다는 뜻. 이후에 위치하는 td나 th tag들은 지워준다.-->
+    
     
 
+       <h2>#9 Form tag 활용 방법</h2>
+
+        <form action = "http://localhost/color.php">
+        <!--form tag를 통하여 서버 전송을 도모함. form tag만 있다면 위치가 불분명하므로 action값에 url을 넣음으로 서버에 접속이 된다.-->
+
+            <h3>Form - dropdown list - 1</h3>
+
+            <select name = "color">
+            <!--주소창에 color라는 이름으로 정보를 기입가능한 tag. option tag는 select tag의 내부 항목.-->
+                <option value = "red">붉은색</option>
+                <option value = "black">검은색</option>
+                <option value = "blue">파란색</option>
+                <!--option tag는 여러 선택지를 주는 tag이다. 기존의 input처럼 값을 직접 입력하는 방식이 아님.-->
+                <!--option tag에 value를 넣음으로써 선택지는 tag내 문자열, 주소창에는 value 내의 값을 지정해준다.-->
+            </select>
+
+            <h3>Form - dropdown list - 2 (다중선택)</h3>
+            <select name = "color2" multiple>
+            <!--multiple을 사용하여 1개 이상의 다중 색을 선택 가능하다-->
+                <option value = "red">붉은색</option>
+                <option value = "black">검은색</option>
+                <option value = "blue">파란색</option>
+            </select><br>
+
+            <input type = "submit">
+            <!--input type이 submit은 '제출' 이라는 뜻이며, 밑의 창에 버튼이 생긴다.-->
+
+        </form>
+        
+
+
+        <form action = "http://localhost/color.php">
+
+            <h3>Form - 문자입력</h3>
+
+            <p>아이디 : <input type = "text" name = "id"></p>
+            <!--type이 아이디와 주소가 겹치므로 구분이 애매하다. 이 때 name을 지정해주어 주소값에 값들을 붙여주고 구분을 지어준다.-->
+            <p>비밀번호 : <input type = "password" name = "pw" value = "default value"></p>
+            <!--input tag를 이용하여 입력을 받는다. type = "text"는 텍스트 형식을 받는다는 의미. "password"는 입력하는 정보를 가려준다.-->
+             <!--value는 처음 출입 시 값에 기입되는 문장 혹은 문자열을 의미한다.-->
+            <p>주소 : <input type = "text" name = "address"></p>
+
+            <p>textarea : 
+                <textarea cols = "50" rows = "4">default value</textarea>
+            </p>
+            <!--textarea tag는 다수의 넓은 입력값을 받을 수 있는 tag이다. 크기를 조정 가능하고, value를 따로 호출하지 않고 textarea tag 안에 넣으면 입력된다.-->
+            <input type = "submit">
+
+        </form>
+        
+        
+        
+        <form action = "http://localhost/color.php">
+
+            <p>
+                <h3>Form - radio</h3>
+                붉은색 : <input type = "radio" name = "color" value = "red">
+                검은색 : <input type = "radio" name = "color" value = "black" checked>
+                파른색 : <input type = "radio" name = "color" value = "blue">
+                <!--radio type은 동그란 버튼을 생성한다. name값이 같은 버튼은 중복선택이 안된다. 하나만 됨.-->
+                <!--checked는 페이지를 열었을 때 처음에 지정되있는 선택지를 정해준다.-->
+            </p>
+        
+            <p>
+                <h3>Form - checkbox(다중선택)</h3>
+                95 : <input type = "checkbox" name = "size" value = "95">
+                100 : <input type = "checkbox" name = "size" value = "100" checked>
+                105 : <input type = "checkbox" name = "size" value = "105" checked>
+                <!--checkbox type은 여러 항목을 다중 선택 가능하게 한다.-->
+            </p>
+
+            <input type = "submit">
+
+        </form>
+    
+
+
+        <form action = "http://localhost/color.php">
+
+            <h3>Form - button</h3>
+
+            <input type = "submit" value = "전송">
+            <!--submit type은 value값으로 이름 변경 가능하다.-->
+            <input type = "button" value = "버튼" onclick = "alert('hello world')">
+            <!--buttom type은 javascript에서 활용되는 type. html만 쓰는 경우 사용처가 없음.-->
+            <input type = "reset">
+            <!--form tag에 입력되던 모든 정보가 reset 된다.-->
+
+        </form>
+
+
+
+        <form action = "http://localhost/color.php">
+
+            <h3>Form - hidden</h3>
+            <input type = "text" name = "id">
+            <input type = "hidden" name = "hide" value = "egoing">
+            <!--주소값에는 보이지만 실제로 입력 전에는 보이지 않는다.-->
+            <input type = "submit" value = "제출">
+        </form>
+
+
+
+        <form action = "http://localhost/color.php">
+
+            <h3>Form - label</h3>
+
+            <p><lable for = "id_txt">text</lable> : 
+                <input id = "id_txt" type = "text" name = "id" value = "default value">
+                <!--label 주요 속성은 for이다. label의 for의 값과 양식의 id의 값이 같으면 연결된다. tag는 label을 클릭하면, 연결된 양식에 입력할 수 있도록 하거나, 체크를 하거나, 체크를 해제한다.-->
+            </p>
+                
+            <p><label for = "password">password</label> : 
+                <input id = "password" type = "password" name = "pwd" value = "default value">
+            </p>
+            <p>
+                <lable>
+                    textarea : 
+                    <textarea id = "comment" rows = "2">default value</textarea>
+                </lable>
+                <!--lable tag는 위에 코드처럼 문자안에서 적용할 수도 있지만 전체를 통으로 적용도 가능하다. 다만 이 경우 textarea : 가 적용되므로 위처럼 문자만 하고 따로 : 를 떼어놓는 식과는 좀 다름.-->
+            </p>
+            <p>
+                <label for = "color_blue">
+                    <input id = "color_blue" type = "checkbox" name = "color" value = "blue"> 파란색
+                </label>
+                
+            </p>
+
+
+        </form>
+
+
+
+        <form action = "http://localhost/method.php" method = "post">
+            <!--기존에는 method가 get(url 방식)으로 지정되는데 이를 post(데이터를 숨김)로 변경하면 주소창에 입력정보가 노출되지 않는다.-->
+    
+                <h3>Form - method</h3>
+                
+                <input type = "text" name = "id">
+                <input type = "password" name = "pwd">
+                <input type = "submit">
+    
+        </form>
+
+
+
+        <form action = "http://localhost/upload.php" method = "post" enctype = "multipart/form-data">
+            <!--enctype은 -->
+                
+                <h3>Form - 파일 업로드</h3>
+    
+                <input type = "file">
+                <!--file 타입은 서버에 파일을 업로드하는 식으로 진행된다.-->
+                <input type = "submit">
+    
+            </form>
+    </body>
+    
 </html>
+<!--head tag와 body tag를 담는 제일 큰 양식인 html tag가 있다.-->
