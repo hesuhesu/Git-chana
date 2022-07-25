@@ -15,4 +15,4 @@
 
 # HTML - practice
 
-[HTML 개발일기](https://hesuhesu.netlify.app/)
+[HTML 개발일기](https://hesuhesu.netlify.app/){: target="_blank"}
