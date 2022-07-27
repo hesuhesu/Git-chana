@@ -9,11 +9,13 @@
 ## korean student(junior in university)
 
 
-+ practice Algorithm
++ practice Data structure & Algorithm(Python, C, C++)
 
 + learning oss(open source software)
 
-# HTML - practice
++ HTML(to learn later CSS, Javascript)
+
+## HTML - Practice Website
 
 [HTML 개발일기](https://hesuhesu.netlify.app/) : 
 
