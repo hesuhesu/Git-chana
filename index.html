@@ -1,7 +1,6 @@
-<!-- alt + b 로 웹 확인하기-->
-
 <!DOCTYPE html>
 <!--버전별 선언, 정리를 위한 코드-->
+<!--alt + b 로 웹 확인하기-->
 
 <html>
     <head>
@@ -9,15 +8,16 @@
         <!--title tag를 이용하여 웹페이지에서 뜨는 이름을 변경 가능하다. 기존에는 a.html로 표시됨.-->
 
         <p>
-            <a target = 'blank' title = 'doctype의 버전별 방식' href = "https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8">DOCTYPE 버전별 정리</a>
+            <a target = "blank" title = "doctype의 버전별 방식" href = "https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8">DOCTYPE 버전별 정리</a>
+            <!--a tag 안에 이미지를 넣는다면 이미지를 클릭 시 하이퍼링크가 연결된다.-->
         </p>
 
         <p>
-            <a target = 'blank' title = 'html의 변천사' href = "http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML의 변천사</a>
+            <a target = "blank" title = "html의 변천사" href = "http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML의 변천사</a>
         </p>
 
         <p>
-            <a target = 'blank' title = '개발자 Github' href = "https://github.com/hesuhesu/Git-chana">개발자 Github</a>
+            <a target = "blank" title = "개발자 Github" href = "https://github.com/hesuhesu/Git-chana">개발자 Github</a>
         </p>
         
         
@@ -43,12 +43,12 @@
         
 
 
-        <h2>#2 하이퍼링크의 사용 방법</h2>
+        <h2>#2 하이퍼링크의 예시</h2>
         
         <a href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 1(본 페이지에서 창 띄움)</a>
         <!--이 방법은 하이퍼링크가 수정페이지에서 바로 연결된다.-->
         
-        <a target = 'blank' title = "전설적인 프로그래머" href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 2(새 창 띄움)</a>
+        <a target = "blank" title = "전설적인 프로그래머" href ="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4">실습 - 2(새 창 띄움)</a>
         <!--a태그는 anchor라고 한다. 하이퍼링크를 위한 명령어. 링크를 만드는 방법이며 href, target, title 등의 속성을 보유한다.-->
         <!--href = "~~"가 하나다. 안에 삽입 x-->
         <!--target = 'blank'는 새로운 페이지를 오픈하는 코드. 위치는 뒤든 앞이든 상관없다. 단 a 앞에는 x-->
@@ -56,7 +56,7 @@
         
 
 
-        <h2>#3 list를 사용하는 방법</h2>
+        <h2>#3 list의 예시</h2>
         
         <ul>
             <li>기술소개</li>
@@ -77,7 +77,7 @@
 
 
 
-        <h2>#4 P tag의 단락 구별법</h2>
+        <h2>#4 P tag의 단락 구별 실습</h2>
        
         <p>
             첫 탄생은 1995년 넷스케이프에서 근무하던 브랜든 아이크가 10일만에 설계한 것으로부터 시작한다. 
@@ -103,21 +103,21 @@
 
 
 
-        <h2>#6 유튜브 및 영상의 구현 방법</h2>
+        <h2>#6 유튜브 및 영상의 구현 실습</h2>
 
         <iframe width="600" height="315" src="https://www.youtube.com/embed/nhAR2-WIM-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!--유튜브에서 공유 > 펴가기 > 복사를 통해 코드를 붙이면 유튜브 영상의 업로드가 가능.-->
 
 
 
-        <h2>#7 이미지 구현 방법</h2>
+        <h2>#7 이미지 구현 실습</h2>
 
-        <img src = "C:\Users\hesuh\Desktop\piano-1655558.jpg" alt = "피아노 이미지" width = "600" title = "피아노 이미지">
+        <img src = "Git-chana.png" alt = "Github 프로젝트 로고" title = "Git-chana">
         <!--img tag는 기존의 방식과 많이 유사하지만, alt의 경우 이미지가 깨질 경우 대체되는 글귀이다.-->
+        <!--width나 height로 크기를 조정 가능.-->
 
 
-
-        <h2>#8 Table 구현 방법</h2>
+        <h2>#8 Table 구현 실습</h2>
         
         <table border = "2">
 
@@ -154,7 +154,7 @@
     
     
 
-       <h2>#9 Form tag 활용 방법</h2>
+       <h2>#9 Form tag 활용 실습</h2>
 
         <form action = "http://localhost/color.php">
         <!--form tag를 통하여 서버 전송을 도모함. form tag만 있다면 위치가 불분명하므로 action값에 url을 넣음으로 서버에 접속이 된다.-->
@@ -310,7 +310,58 @@
                 <!--file 타입은 서버에 파일을 업로드하는 식으로 진행된다.-->
                 <input type = "submit">
     
-            </form>
+        </form>
+
+
+
+        <h2>#10 Font Tag(왠만하면 사용 x)</h2>
+
+        <font size = "5" color = "blue">Hello</font> world
+        <!--font tag는 size가 1~7까지 지정 가능하다. color를 지정도 가능함.-->
+        <!--html에는 정보를 추구하는 방향으로 가고 Font tag보단 css를 통해 개선한다.-->
+        
+
+
+        <h2>#11 Meta Tag</h2>
+
+        <p>주석 참조</p>
+        <!--<meta http-equiv = "refresh" content = "30">은 30초 간격으로 웹페이지가 새로고침 된다.-->
+        <!--나머지 관련 코드들은 찾아보자.-->
+
+
+
+        <h2>#12 Semantic Tag</h2>
+
+        <header></header>
+        <!--header tag는 아무 기능은 없지만 중요한 정보나 웹페이지에 대한 전체적 정보를 알리는 역할을 한다.-->
+        
+        <nav></nav>
+        <!--nav tag는 문서의 네비게이션 항목을 정의한다.-->
+
+        <article>
+
+            <p>Semantic Tag는 의미론적 태그이다. 말 그대로 문단이나 글 등의 의미를 부여하기 위함이므로 기능적 차이는 없다.</p>
+            <p>소개된 header, nav, article, footer 말고도 figure, main, mark, section, time, aside 등이 있다.</p>
+            <p><a target = "blank" title = "관련 Tag 설명" href = "https://opentutorials.org/module/1892/10954">관련 Tag 설명</a></p>
+
+        </article>
+        <!--article tag는 본문을 지칭한다. -->
+
+        <footer>
+
+            <ui>
+
+                <li><a href = "privacy.html">개인보호정책(예시)</a></li>
+                <li><a href = "about.html">회사소개(예시)</a></li>
+
+            </ui>
+            
+        </footer>
+        <!--footer tag 또한 header tag와 같이 의미를 부여하기 위한 기능없는 구분단락.-->
+
+
+
+
     </body>
     
 </html>
