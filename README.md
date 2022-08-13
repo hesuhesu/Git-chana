@@ -28,3 +28,13 @@
 새 창에서 열리는 마크다운 형식의 {: target="_blank"}는 적용이 안됩니다. 되는 방법이 있다면 조언 부탁드립니다.
 
 __Static Web Page__. Plan to study dynamic webpage in the future
+
+-------------------------------------------------------------------------------
+
+## 기타 참고사항 및 소스 정보
+
+[음원 저작자] Smilegate RPG
+
+[음원 출처] LOST ARK O.S.T – 햇살속의 선율(Calm village)
+
+[음원 저작자 링크] : [하이퍼링크](https://m-lostark.game.onstove.com/OST)
