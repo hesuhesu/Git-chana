@@ -33,8 +33,8 @@ __Static Web Page__. Plan to study dynamic webpage in the future
 
 ## 기타 참고사항 및 소스 정보
 
-[음원 저작자] Smilegate RPG
+[음원 저작자] SellBuyMusic
 
-[음원 출처] LOST ARK O.S.T – 햇살속의 선율(Calm village)
+[음원 제목] Thinking of you from the morning 
 
-[음원 저작자 링크] : [하이퍼링크](https://m-lostark.game.onstove.com/OST)
+[음원 출처 링크] : [하이퍼링크](https://www.sellbuymusic.com/search/freebgm)
