@@ -29,7 +29,7 @@
 
 ## __HTML - Practice Website__
 
-[HTML 개발일기](https://hesuhesu.netlify.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/5d359541-e781-4447-8bc2-3ecf2839020d/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
+<a target = "blank" href = 'https://hesuhesu.netlify.app/'>HTML 개발일기</a> [![Netlify Status](https://api.netlify.com/api/v1/badges/5d359541-e781-4447-8bc2-3ecf2839020d/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
 
 새 창에서 열리는 마크다운 형식의 {: target="_blank"}는 적용이 안됩니다. 되는 방법이 있다면 조언 부탁드립니다.
 
