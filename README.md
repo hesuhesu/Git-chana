@@ -15,7 +15,7 @@
 + practice Data structure & Algorithm(Python, C, C++)
 
 
-<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="400" height="400"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="400" height="400"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="500" height="400"/>
 
 
 
@@ -29,9 +29,9 @@
 
 ## __HTML - Practice Website__
 
-<a target = "blank" href = 'https://hesuhesu.netlify.app/'>HTML 개발일기</a> [![Netlify Status](https://api.netlify.com/api/v1/badges/5d359541-e781-4447-8bc2-3ecf2839020d/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
+Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>HTML 개발일기</a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d359541-e781-4447-8bc2-3ecf2839020d/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
 
-새 창에서 열리는 마크다운 형식의 {: target="_blank"}는 적용이 안됩니다. 되는 방법이 있다면 조언 부탁드립니다.
 
 __Static Web Page__. Plan to study dynamic webpage in the future
 
