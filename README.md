@@ -15,7 +15,7 @@
 + practice Data structure & Algorithm(Python, C, C++)
 
 
-<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="400" height="400"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="500" height="400"/>
+<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="200" height="200"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="300" height="200"/>
 
 
 
