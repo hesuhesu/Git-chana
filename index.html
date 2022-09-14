@@ -23,11 +23,50 @@
         
         <meta charset = "utf-8">
         <!--글씨가 깨진다면, <meta charset = "utf-8">이라는 코드를 그대로 기입한다.-->
+        <style>
+            .box {
+          width: 100px;
+          height: 100px;
+          background: red;
+          position: relative;
+          animation: myAnimation 5s infinite;
+          /*홀수번째는 normal로, 짝수번째는 reverse로 진행*/
+          animation-direction: alternate;
+        }
+        @keyframes myAnimation {
+          0%   { background: red;    left: 0px;   top: 0px; }
+          25%  { background: yellow; left: 200px; top: 0px; }
+          50%  { background: blue;   left: 200px; top: 200px; }
+          75%  { background: green;  left: 0px;   top: 200px; }
+          100% { background: red;    left: 0px;   top: 0px; }
+        }
+        </style>
     </head>
     <!--본문이 아닌 tag들을 heat tag에 넣는다.-->
     
     
     <body>
+
+        <div class="box"></div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <button class="start">start animation</button>
+        <button class="pause">pause animation</button>
+        
+        <script>
+            const box = document.querySelector('.box');
+
+            document.querySelector('.start').addEventListener('click', function () {
+            // trigger animation
+            // prefixes would be needed...
+            box.style.animationPlayState = 'running';
+            });
+
+            document.querySelector('.pause').addEventListener('click', function () {
+            // pause animation
+            // prefixes would be needed...
+            box.style.animationPlayState = 'paused';
+            });
+        </script>
 
         <h1>HTML</h1> <!--h1 > h2 순으로 제목 부제목-->
     
