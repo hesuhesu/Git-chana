@@ -1,0 +1,7 @@
+1. first. Please enter English. You will hear the pronunciation.
+
+2. Please follow the instructions
+
+3. Do not enter an extension for the second input, namely the file name.
+
+4. The save file is saved in the program location.
