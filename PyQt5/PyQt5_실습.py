@@ -7,20 +7,21 @@ class MyApp(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.gui_1()
-        
-    def gui_1(self) :
         self.setWindowTitle('연습용 GUI')
         self.setWindowIcon(QIcon("C:\\Users\\user\\Desktop\\22년 2학기 프로그래밍 개발파일\\python 프로그래밍\\ext.png"))
         self.resize(400,400)
         self.center() # center method 활용. 중간에 창이 띄워짐.
-        btn = QPushButton("확인", self)	# 버튼 텍스트
+        self.btn_1()
+        
+        
+    def btn_1(self) :
+        btn = QPushButton("종료", self)	# 버튼 텍스트
         btn.resize(200, 60)
         btn.move(100, 200)	# 버튼 위치
         btn.clicked.connect(self.btn_clicked)
         
     def btn_clicked(self) :
-        QMessageBox.about(self, "message", "눌렀냐? 나간다")
+        QMessageBox.about(self, "message", "종료합니다.")
         self.close()
     
     def center(self): # 윈도우 정중앙에 놓는 코드.
