@@ -12,10 +12,10 @@
 ## __korean student(junior in university)__
 
 
-+ practice Data structure & Algorithm(Python, C, C++)
++ practice Data structure & Algorithm(Python, C++, Java)
 
 
-<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="200" height="200"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="300" height="200"/>
+<img src="https://user-images.githubusercontent.com/91324571/162557218-f98cb96d-d52d-4fa2-94d0-fa19503a2002.png" width="200" height="200"/><img src="https://user-images.githubusercontent.com/91324571/162557146-2d69ff65-092b-4328-95e1-b7e230bd187d.png" width="300" height="200"/><img src="https://user-images.githubusercontent.com/91324571/200742987-8cd68312-1c32-4ae4-bdbd-c5d2c33d95bf.jpg" width="200" height="200"/>
 
 
 
