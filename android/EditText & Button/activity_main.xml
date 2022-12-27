@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--android:orientation="vertical" horizontal은 가로정렬, vertical은 세로정렬이다.-->
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff2b3b"
+        android:textSize="20sp"
+        android:text="안녕하세요!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테스트 입니다."/>
+
+    android:textSize="20sp"는 폰트 사이즈.
+    android:textColor="#ff2b3b"는 글자색 지정이다.
+    -->
+
+
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:hint="버튼을 입력하세요." />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+
+</LinearLayout>
