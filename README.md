@@ -9,7 +9,7 @@
 
 -------------------------------------------------------------------------------
 
-## __korean student(junior in university)__
+## __korean student(Senior in university)__
 
 
 + practice Data structure & Algorithm(Python, C++, Java)
@@ -25,6 +25,10 @@
 + HTML(to learn later CSS, Javascript) 
    + current level = __static web page__  
 
++ android
+
+<img src="https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA" width="500" height="200"/>
+
 -------------------------------------------------------------------------------
 
 ## __HTML - Practice Website__
@@ -34,6 +38,12 @@ Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>H
 
 
 __Static Web Page__. Plan to study dynamic webpage in the future
+
+-------------------------------------------------------------------------------
+
+## android
+
+
 
 -------------------------------------------------------------------------------
 
