@@ -4,7 +4,7 @@
 
 예를 들어, 다음과 같이 81개의 수가 주어지면
 
-<img src="./2566/image.png">
+![99](https://user-images.githubusercontent.com/91324571/210311795-aa48d149-6dce-4d62-a19b-8bf837d75163.png)
 
 이들 중 최댓값은 90이고, 이 값은 5행 7열에 위치한다.
 
