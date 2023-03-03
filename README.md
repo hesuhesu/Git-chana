@@ -37,7 +37,7 @@
 
 ## __HTML - Practice Website__
 
-Developer Webpage : <a target = 'blank' href = 'https://hesuhesu_introduce.netlify.app/'>My Website</a>
+Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>My Website</a> [![Netlify Status](https://api.netlify.com/api/v1/badges/f8936d78-57ab-4128-8e7f-dcc3d9823c31/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
 
 
 __Static Web Page__. Plan to study dynamic webpage in the future
