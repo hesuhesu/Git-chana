@@ -37,8 +37,7 @@
 
 ## __HTML - Practice Website__
 
-Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>HTML 개발일기</a>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5d359541-e781-4447-8bc2-3ecf2839020d/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
+Developer Webpage : <a target = 'blank' href = 'https://hesuhesu_introduce.netlify.app/'>My Website</a>
 
 
 __Static Web Page__. Plan to study dynamic webpage in the future
@@ -50,11 +49,3 @@ __Static Web Page__. Plan to study dynamic webpage in the future
 
 
 -------------------------------------------------------------------------------
-
-## 기타 참고사항 및 소스 정보
-
-[음원 저작자] SellBuyMusic
-
-[음원 제목] Thinking of you from the morning 
-
-[음원 출처 링크] : [하이퍼링크](https://www.sellbuymusic.com/search/freebgm)
