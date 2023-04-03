@@ -399,10 +399,10 @@ public class rbt {
   public static void main(String[] args) throws IOException {
 	  
 	BufferedReader reader = new BufferedReader(
-			new FileReader("C:\\Users\\hesuh\\Desktop\\23년 1학기\\문제해결기법\\hw1 - Red_Black_Tree\\sampleData1\\2.inp")
+			new FileReader("rbt.inp")
 	);
 	BufferedWriter writer = new BufferedWriter(
-			new FileWriter("C:\\Users\\hesuh\\Desktop\\23년 1학기\\문제해결기법\\hw1 - Red_Black_Tree\\sampleData1\\rbt.out")
+			new FileWriter("rbt.out")
 	);
 	String line = "";
 	
