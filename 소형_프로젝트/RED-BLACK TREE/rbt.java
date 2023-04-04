@@ -4,6 +4,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+// Implementing Red-Black Tree in Java
+
 class Node {
   int data;
   Node parent;
@@ -17,6 +19,8 @@ public class rbt {
   public Node TNULL;
   public int check = 0;
   	
+  
+  // Preorder
   private void preOrderHelper(Node node) {
     if (node != TNULL) {
       System.out.print(node.data + " ");
@@ -25,6 +29,7 @@ public class rbt {
     }
   }
 
+  // Inorder
   private void inOrderHelper(Node node) {
     if (node != TNULL) {
       inOrderHelper(node.left);
@@ -33,6 +38,7 @@ public class rbt {
     }
   }
 
+  // Post order
   private void postOrderHelper(Node node) {
     if (node != TNULL) {
       postOrderHelper(node.left);
@@ -41,6 +47,7 @@ public class rbt {
     }
   }
 
+  // Search the tree
   private Node searchTreeHelper(Node node, int key) {
     if (node == TNULL || key == node.data) {
       return node;
@@ -52,6 +59,7 @@ public class rbt {
     return searchTreeHelper(node.right, key);
   }
 
+  // Balance the tree after deletion of a node
   private void fixDelete(Node x) {
     Node s;
     while (x != root && x.color == 0) {
