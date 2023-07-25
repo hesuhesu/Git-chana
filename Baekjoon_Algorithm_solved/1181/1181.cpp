@@ -30,7 +30,7 @@ int main() {
     sort(arr, arr + N, compare);
 
     for (int i = 0; i < N; i++) {
-        if (arr[i] == arr[i - 1]) {
+        if (i > 0 && (arr[i] == arr[i - 1])) {
             continue;
         }
         cout << arr[i] << '\n';
