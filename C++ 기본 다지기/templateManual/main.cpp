@@ -1,32 +1,4 @@
-﻿/*
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <map>
-#include <set>
-#include <future>
-#include "mathSolve.h"
-
-ios_base::sync_with_stdio(0);
-cin.tie(0);
-cout.tie(0);
-
-int compare(string a, string b) {
-
-    if (a.length() == b.length()) {
-        return a < b;
-    }
-    else {
-        return a.length() < b.length();
-    }
-}
-
-sort(arr, arr + N, compare);
-
-//*/
-
-#include <iostream>
+﻿#include <iostream>
 #include "mathSolve.h"
 using namespace std;
 
