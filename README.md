@@ -30,7 +30,9 @@ ___
 + learning CS theory
    + <a target = 'blank' href = 'https://github.com/hesuhesu/Lecture-Review'>Lecture-Review Link</a>
 
-<img src = "/images/Lecture-Review.png">
+<img src = "/images/Lecture-Review.png" width = "900" height = "600">
+
+<br>
 
 ___
 
@@ -38,9 +40,11 @@ ___
 
 <br>
 
-Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>My Website</a> [![Netlify Status](https://api.netlify.com/api/v1/badges/f8936d78-57ab-4128-8e7f-dcc3d9823c31/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
++ Developer Webpage : <a target = 'blank' href = 'https://hesuhesu.netlify.app/'>My Website</a> [![Netlify Status](https://api.netlify.com/api/v1/badges/f8936d78-57ab-4128-8e7f-dcc3d9823c31/deploy-status)](https://app.netlify.com/sites/hesuhesu/deploys)
 
-__Static Web Page__. Plan to study dynamic webpage in the future.
++ __Static Web Page__. Plan to study dynamic webpage in the future.
+
+<br>
 
 ___
 
@@ -48,8 +52,8 @@ ___
 
 <br>
 
-Develop Repository : <a target = 'blank' href = 'https://github.com/hesuhesu/myDiary'>MyDiary</a>
++ Develop Repository : <a target = 'blank' href = 'https://github.com/hesuhesu/myDiary'>MyDiary</a>
 
-__toy Project__. Practice Kotlin with Android
++ __toy Project__. Practice Kotlin with Android
 
-<img src = "/images/Diary.jpg">
+<img src = "/images/Diary.jpg" width = "300" height = "600">
