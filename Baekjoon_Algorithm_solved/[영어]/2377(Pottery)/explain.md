@@ -6,4 +6,18 @@
 
 Output the pot exactly as shown in the example output. There are no blank lines before or after the output, and there are no trailing spaces on any of the lines.
 
+```
+ _________
+ \_     _/
+   \   /
+    | |
+   /   \
+  /     \
+ |       |
+/---------\
+| \-/ \-/ |
+\---------/
+ \_______/
+```
+
 [출처](https://www.acmicpc.net/problem/2377)
