@@ -57,3 +57,16 @@ ___
 + __toy Project__. Practice Kotlin with Android
 
 <img src = "/images/Diary.jpg" width = "300" height = "600">
+
+<br>
+
+___
+
+# Q & A
+
+<br>
+
+- 이슈 링크 : [Issue Link](https://github.com/hesuhesu/Git-chana/issues/13)
+- 토론 링크 : [Discussion Link](https://github.com/hesuhesu/Git-chana/discussions)
+
+___
